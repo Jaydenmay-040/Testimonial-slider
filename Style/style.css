@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+  background: url(https://i.picsum.photos/id/212/2000/1394.jpg?hmac=5mJ6tJgbGO0Wl1jBHXsiOQQYq-bRf47wLE9vmXjcEuU);
+  min-height: 100vh;
+  background-size: cover;
+  padding: 10% 15%;
+}
+
+.owl-carousel {
+  overflow: hidden;
+}
+
+.owl-carousel .owl-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center center;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10%;
+}
+
+.Headings {
+  text-align: center;
+  padding: 20px;
+}
+
+.h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+.h1 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+p {
+  font-style: italic;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .timeline-container {
+    grid-template-columns: 10% 1fr;
+  }
