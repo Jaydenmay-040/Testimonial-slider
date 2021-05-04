@@ -15,6 +15,7 @@ body {
 
 .owl-carousel {
   overflow: hidden;
+  margin-right: 15%;
 }
 
 .owl-carousel .owl-item img {
@@ -36,6 +37,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding: 10%;
+  padding-right: 50px;
 }
 
 .Headings {
@@ -60,7 +62,14 @@ p {
   color: black;
 }
 
+.owl-carousel {
+  width: 6638;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 @media screen and (max-width: 800px) {
   .timeline-container {
-    grid-template-columns: 10% 1fr;
+    grid-template-columns: 50% 1fr;
   }
+}
